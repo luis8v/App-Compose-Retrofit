@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "286615865980",
+    "project_id": "kotlin-app-774ed",
+    "storage_bucket": "kotlin-app-774ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286615865980:android:a21f4a5f81fee13ebc57f9",
+        "android_client_info": {
+          "package_name": "com.example.appcomposeretrofit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "286615865980-2r5uj5q3so01ojgb7872j1umkl9s43qn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnS4NPp7Hmk-w0Fl9QdWxgE2W8_yWR8lo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "286615865980-2r5uj5q3so01ojgb7872j1umkl9s43qn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
