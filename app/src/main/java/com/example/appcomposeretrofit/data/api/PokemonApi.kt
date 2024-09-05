@@ -1,4 +1,4 @@
-package com.example.appcomposeretrofit.api
+package com.example.appcomposeretrofit.data.api
 
 import com.example.appcomposeretrofit.model.ListaPokemon
 import com.example.appcomposeretrofit.model.PokemonDetail

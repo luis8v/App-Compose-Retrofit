@@ -1,4 +1,6 @@
 package com.example.appcomposeretrofit.model
 
-class PokemonTypeSlot {
-}
+data class PokemonTypeSlot(
+    val slot: Int,
+    val type: PokemonType
+)

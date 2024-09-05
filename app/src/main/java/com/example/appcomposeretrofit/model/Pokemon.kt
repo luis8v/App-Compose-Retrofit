@@ -1,6 +1,7 @@
 package com.example.appcomposeretrofit.model
 
-data class Result(
+data class  Pokemon(
+    val id: Int,
     val name: String,
     val url: String
 )

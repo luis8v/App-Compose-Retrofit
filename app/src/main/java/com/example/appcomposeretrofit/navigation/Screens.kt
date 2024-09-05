@@ -1,4 +1,4 @@
-package com.example.appcomposeretrofit.navegation
+package com.example.appcomposeretrofit.navigation
 
 enum class Screens {
     SplashScreen,

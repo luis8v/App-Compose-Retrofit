@@ -1,4 +1,4 @@
-package com.example.appcomposeretrofit.repository
+package com.example.appcomposeretrofit.data.repository
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

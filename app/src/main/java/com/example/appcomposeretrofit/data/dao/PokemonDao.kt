@@ -1,9 +1,10 @@
-package com.example.appcomposeretrofit.repository
+package com.example.appcomposeretrofit.data.dao
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
-import retrofit2.http.Query
+import com.example.appcomposeretrofit.data.repository.PokemonDetailEntity
+import androidx.room.Query
 
 @Dao
 interface PokemonDao {

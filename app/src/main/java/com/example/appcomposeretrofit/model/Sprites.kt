@@ -1,4 +1,5 @@
 package com.example.appcomposeretrofit.model
 
-class Sprites {
-}
+data class Sprites(
+    val front_default: String
+)

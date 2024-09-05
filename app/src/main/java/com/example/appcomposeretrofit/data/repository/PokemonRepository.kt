@@ -1,4 +1,4 @@
-package com.example.appcomposeretrofit.repository
+package com.example.appcomposeretrofit.data.repository
 
 import com.example.appcomposeretrofit.data.api.PokemonApi
 import com.example.appcomposeretrofit.data.dao.PokemonDao
@@ -21,8 +21,8 @@ class PokemonRepository(
     private val pokemonDao: PokemonDao
 ) {
 
-    suspend fun getPokemonList(): ListaPokemon {
-        return pokemonApi.getPokemonList()
+    suspend fun getPokemonList(offset: Int, limit: Int): ListaPokemon {
+        return pokemonApi.getPokemonList(offset = offset, limit = limit)
     }
 
     suspend fun getPokemonDetail(id: Int): PokemonDetail {
@@ -64,5 +64,4 @@ class PokemonRepository(
             types = this.types.split(",").map { PokemonTypeSlot(0, PokemonType(it)) }
         )
     }
-
 }
